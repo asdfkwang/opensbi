@@ -47,6 +47,10 @@ config PLATFORM_ANDES_QILAI
 	select ANDES_SBI
 	default n
 
+config PLATFORM_BOUFFALOLAB_BL808
+	bool "Bouffalo Lab BL808 support"
+	default n
+
 config PLATFORM_ESWIN_EIC770X
 	bool "ESWIN EIC770X support"
 	default n

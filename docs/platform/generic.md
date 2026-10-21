@@ -51,6 +51,7 @@ RISC-V Platforms Using Generic Platform
 * **OpenPiton FPGA SoC** (*[fpga-openpiton.md]*)
 * **Ariane FPGA SoC** (*[fpga-ariane.md]*)
 * **Metanoia MT2824 SoC** (*[metanoia-mt2824.md]*)
+* **Sipeed M1s Dock (Bouffalo Lab BL808)** (*[bl808-m1s.md]*)
 
 [andes-ae350.md]: andes-ae350.md
 [qemu_virt.md]: qemu_virt.md
@@ -63,3 +64,4 @@ RISC-V Platforms Using Generic Platform
 [fpga-openpiton.md]: fpga-openpiton.md
 [fpga-ariane.md]: fpga-ariane.md
 [metanoia-mt2824.md]: metanoia-mt2824.md
+[bl808-m1s.md]: bl808-m1s.md
