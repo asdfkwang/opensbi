@@ -14,6 +14,11 @@ config FDT_SERIAL_ALTR_JUART
 	select SERIAL_ALTR_JUART
 	default n
 
+config FDT_SERIAL_BL808
+	bool "Bouffalo Lab BL808 UART FDT driver"
+	select SERIAL_BL808
+	default n
+
 config FDT_SERIAL_CADENCE
 	bool "Cadence UART FDT driver"
 	select SERIAL_CADENCE
@@ -63,6 +68,10 @@ endif
 
 config SERIAL_ALTR_JUART
 	bool "Altera JTAG UART support"
+	default n
+
+config SERIAL_BL808
+	bool "Bouffalo Lab BL808 UART support"
 	default n
 
 config SERIAL_CADENCE
